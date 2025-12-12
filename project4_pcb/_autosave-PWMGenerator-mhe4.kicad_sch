@@ -3234,10 +3234,22 @@
 		(uuid "30272788-f95d-496e-a333-2172cd43cc7b")
 	)
 	(junction
+		(at 196.85 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4495033e-144e-472d-95d4-f7ff85fde356")
+	)
+	(junction
 		(at 109.22 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47b7e54f-7f4e-4414-9aa7-22be582b79ad")
+	)
+	(junction
+		(at 196.85 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49033bd2-ced5-48f6-9330-bab812692013")
 	)
 	(junction
 		(at 31.75 31.75)
@@ -3389,6 +3401,42 @@
 		(color 0 0 0 0)
 		(uuid "fb5ba590-7ad5-4e2e-a126-7a6d40907cec")
 	)
+	(no_connect
+		(at 184.15 99.06)
+		(uuid "177c488e-b070-4d95-bdaf-e577c4d01bd8")
+	)
+	(no_connect
+		(at 161.29 95.25)
+		(uuid "21f84273-d7f1-4dd1-8f6a-d62e39d6b4fd")
+	)
+	(no_connect
+		(at 184.15 93.98)
+		(uuid "2e150311-ba7e-47ac-a18e-0ca5984e862b")
+	)
+	(no_connect
+		(at 209.55 99.06)
+		(uuid "722da2ff-8d5d-4e0c-bc8f-8e6b27f417e0")
+	)
+	(no_connect
+		(at 176.53 97.79)
+		(uuid "790dec91-11fa-4e6f-848a-54cfe6edb993")
+	)
+	(no_connect
+		(at 199.39 96.52)
+		(uuid "90bd769e-dae3-426e-b98f-22f52ef9e970")
+	)
+	(no_connect
+		(at 161.29 100.33)
+		(uuid "9dde1ece-f8ae-4456-af47-49dcdb3993ab")
+	)
+	(no_connect
+		(at 224.79 96.52)
+		(uuid "b0b1f640-2e70-4295-abd9-f59c8ac987c7")
+	)
+	(no_connect
+		(at 209.55 93.98)
+		(uuid "f3259d57-7852-48ce-a413-f341d96ab54c")
+	)
 	(wire
 		(pts
 			(xy 167.64 34.29) (xy 176.53 34.29)
@@ -3398,6 +3446,16 @@
 			(type default)
 		)
 		(uuid "03c08520-4110-4096-9148-67145cfb7f7f")
+	)
+	(wire
+		(pts
+			(xy 196.85 34.29) (xy 218.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0695d792-64ab-4fef-9853-e479ae8438a0")
 	)
 	(wire
 		(pts
@@ -3448,6 +3506,16 @@
 			(type default)
 		)
 		(uuid "10348374-f791-4a7c-b12b-f7fcfd02a677")
+	)
+	(wire
+		(pts
+			(xy 196.85 74.93) (xy 218.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c085d2-7d03-4681-aca3-b452af5c067b")
 	)
 	(wire
 		(pts
@@ -3691,6 +3759,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 69.85) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444eef11-991a-4c75-9f74-c4bca8030810")
+	)
+	(wire
+		(pts
 			(xy 31.75 34.29) (xy 31.75 31.75)
 		)
 		(stroke
@@ -3718,6 +3796,16 @@
 			(type default)
 		)
 		(uuid "4b1ebfdd-1e68-4776-89f6-7b68011260b9")
+	)
+	(wire
+		(pts
+			(xy 196.85 34.29) (xy 196.85 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b5b496b-e2c4-4f74-945b-ffdf0d314fec")
 	)
 	(wire
 		(pts
@@ -4021,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 218.44 74.93)
+			(xy 176.53 74.93) (xy 196.85 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4401,7 +4489,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 34.29) (xy 218.44 34.29)
+			(xy 176.53 34.29) (xy 196.85 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4713,7 +4801,7 @@
 		(dnp no)
 		(uuid "21c14cfe-3204-4e89-934e-d3339ddc1cc1")
 		(property "Reference" "J1"
-			(at 243.332 26.67 0)
+			(at 233.426 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,7 +4809,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 243.84 29.21 0)
+			(at 233.934 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,6 +5805,112 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM339")
+		(at 199.39 62.23 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c04dc8e-90ed-4a43-bcd6-dd8c8e029079")
+		(property "Reference" "U2"
+			(at 198.12 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM339"
+			(at 198.12 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 199.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "84113e2d-4e85-4cac-a319-ddd9a925f038")
+		)
+		(pin "6"
+			(uuid "56671174-d13b-49eb-af65-eca552fc5b85")
+		)
+		(pin "5"
+			(uuid "27e7b167-6356-450f-b75a-14d54fb772c7")
+		)
+		(pin "2"
+			(uuid "9723016a-7e8e-41fa-9f9d-a40bab15bf66")
+		)
+		(pin "7"
+			(uuid "9a034d35-711c-4fd0-a581-b2de7ef80a9b")
+		)
+		(pin "10"
+			(uuid "58c5823e-91b4-4b45-afc3-c60e08d2418b")
+		)
+		(pin "3"
+			(uuid "dd879992-5a15-4f3b-ada2-418477443ab1")
+		)
+		(pin "14"
+			(uuid "adf4e21d-c66a-4260-9ba7-93bf39f7e0af")
+		)
+		(pin "12"
+			(uuid "1ca22d4e-a952-49db-a551-1df0c7e80e72")
+		)
+		(pin "1"
+			(uuid "0804636d-3ef0-4e6c-b081-b120c661bcff")
+		)
+		(pin "13"
+			(uuid "8a45f726-b27d-4db0-9703-df5b3a4caf2b")
+		)
+		(pin "9"
+			(uuid "e3230236-9d37-41a7-8369-3a1ac1da1817")
+		)
+		(pin "8"
+			(uuid "d8b683d0-a6c7-4e3a-b7d0-15b002e1e0b6")
+		)
+		(pin "11"
+			(uuid "884f7736-b8ee-42fb-bd2b-d7f46e53e5e8")
+		)
+		(instances
+			(project ""
+				(path "/f3461b7b-d36e-4053-9422-a6031994ada8"
+					(reference "U2")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
 		(at 190.5 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5815,6 +6009,318 @@
 				(path "/f3461b7b-d36e-4053-9422-a6031994ada8"
 					(reference "U2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 191.77 96.52 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c04dc8e-90ed-4a43-bcd6-dd8c8e029079")
+		(property "Reference" "U2"
+			(at 191.77 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 193.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 191.77 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "84113e2d-4e85-4cac-a319-ddd9a925f038")
+		)
+		(pin "6"
+			(uuid "56671174-d13b-49eb-af65-eca552fc5b85")
+		)
+		(pin "5"
+			(uuid "27e7b167-6356-450f-b75a-14d54fb772c7")
+		)
+		(pin "2"
+			(uuid "9723016a-7e8e-41fa-9f9d-a40bab15bf66")
+		)
+		(pin "7"
+			(uuid "9a034d35-711c-4fd0-a581-b2de7ef80a9b")
+		)
+		(pin "10"
+			(uuid "58c5823e-91b4-4b45-afc3-c60e08d2418b")
+		)
+		(pin "3"
+			(uuid "dd879992-5a15-4f3b-ada2-418477443ab1")
+		)
+		(pin "14"
+			(uuid "adf4e21d-c66a-4260-9ba7-93bf39f7e0af")
+		)
+		(pin "12"
+			(uuid "1ca22d4e-a952-49db-a551-1df0c7e80e72")
+		)
+		(pin "1"
+			(uuid "0804636d-3ef0-4e6c-b081-b120c661bcff")
+		)
+		(pin "13"
+			(uuid "8a45f726-b27d-4db0-9703-df5b3a4caf2b")
+		)
+		(pin "9"
+			(uuid "e3230236-9d37-41a7-8369-3a1ac1da1817")
+		)
+		(pin "8"
+			(uuid "d8b683d0-a6c7-4e3a-b7d0-15b002e1e0b6")
+		)
+		(pin "11"
+			(uuid "884f7736-b8ee-42fb-bd2b-d7f46e53e5e8")
+		)
+		(instances
+			(project ""
+				(path "/f3461b7b-d36e-4053-9422-a6031994ada8"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 217.17 96.52 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c04dc8e-90ed-4a43-bcd6-dd8c8e029079")
+		(property "Reference" "U2"
+			(at 217.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 218.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 217.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "84113e2d-4e85-4cac-a319-ddd9a925f038")
+		)
+		(pin "6"
+			(uuid "56671174-d13b-49eb-af65-eca552fc5b85")
+		)
+		(pin "5"
+			(uuid "27e7b167-6356-450f-b75a-14d54fb772c7")
+		)
+		(pin "2"
+			(uuid "9723016a-7e8e-41fa-9f9d-a40bab15bf66")
+		)
+		(pin "7"
+			(uuid "9a034d35-711c-4fd0-a581-b2de7ef80a9b")
+		)
+		(pin "10"
+			(uuid "58c5823e-91b4-4b45-afc3-c60e08d2418b")
+		)
+		(pin "3"
+			(uuid "dd879992-5a15-4f3b-ada2-418477443ab1")
+		)
+		(pin "14"
+			(uuid "adf4e21d-c66a-4260-9ba7-93bf39f7e0af")
+		)
+		(pin "12"
+			(uuid "1ca22d4e-a952-49db-a551-1df0c7e80e72")
+		)
+		(pin "1"
+			(uuid "0804636d-3ef0-4e6c-b081-b120c661bcff")
+		)
+		(pin "13"
+			(uuid "8a45f726-b27d-4db0-9703-df5b3a4caf2b")
+		)
+		(pin "9"
+			(uuid "e3230236-9d37-41a7-8369-3a1ac1da1817")
+		)
+		(pin "8"
+			(uuid "d8b683d0-a6c7-4e3a-b7d0-15b002e1e0b6")
+		)
+		(pin "11"
+			(uuid "884f7736-b8ee-42fb-bd2b-d7f46e53e5e8")
+		)
+		(instances
+			(project ""
+				(path "/f3461b7b-d36e-4053-9422-a6031994ada8"
+					(reference "U2")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Comparator:LM339")
+		(at 168.91 97.79 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c04dc8e-90ed-4a43-bcd6-dd8c8e029079")
+		(property "Reference" "U2"
+			(at 168.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339"
+			(at 168.91 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lm139.pdf"
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, SOIC-14/TSSOP-14"
+			(at 168.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "84113e2d-4e85-4cac-a319-ddd9a925f038")
+		)
+		(pin "6"
+			(uuid "56671174-d13b-49eb-af65-eca552fc5b85")
+		)
+		(pin "5"
+			(uuid "27e7b167-6356-450f-b75a-14d54fb772c7")
+		)
+		(pin "2"
+			(uuid "9723016a-7e8e-41fa-9f9d-a40bab15bf66")
+		)
+		(pin "7"
+			(uuid "9a034d35-711c-4fd0-a581-b2de7ef80a9b")
+		)
+		(pin "10"
+			(uuid "58c5823e-91b4-4b45-afc3-c60e08d2418b")
+		)
+		(pin "3"
+			(uuid "dd879992-5a15-4f3b-ada2-418477443ab1")
+		)
+		(pin "14"
+			(uuid "adf4e21d-c66a-4260-9ba7-93bf39f7e0af")
+		)
+		(pin "12"
+			(uuid "1ca22d4e-a952-49db-a551-1df0c7e80e72")
+		)
+		(pin "1"
+			(uuid "0804636d-3ef0-4e6c-b081-b120c661bcff")
+		)
+		(pin "13"
+			(uuid "8a45f726-b27d-4db0-9703-df5b3a4caf2b")
+		)
+		(pin "9"
+			(uuid "e3230236-9d37-41a7-8369-3a1ac1da1817")
+		)
+		(pin "8"
+			(uuid "d8b683d0-a6c7-4e3a-b7d0-15b002e1e0b6")
+		)
+		(pin "11"
+			(uuid "884f7736-b8ee-42fb-bd2b-d7f46e53e5e8")
+		)
+		(instances
+			(project ""
+				(path "/f3461b7b-d36e-4053-9422-a6031994ada8"
+					(reference "U2")
+					(unit 2)
 				)
 			)
 		)
