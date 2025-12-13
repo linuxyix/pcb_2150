@@ -7,7 +7,7 @@
 	(title_block
 		(title "CMPE2150 PWM Generator - mhe4")
 		(date "2025-12-11")
-		(rev "3")
+		(rev "5")
 		(company "NAIT CNT")
 		(comment 1 "Mengning He")
 	)
@@ -1321,6 +1321,219 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer_US"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_US_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1455,193 +1668,6 @@
 				)
 			)
 			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_Variable_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 -2.54 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_Variable_US"
-				(at -2.54 -1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Variable resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor variable potentiometer rheostat"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Variable_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 1.524) (xy 2.54 2.54) (xy 1.524 2.286) (xy 2.54 2.54) (xy -2.032 -2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Variable_US_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -3279,12 +3305,6 @@
 		(uuid "16ec516b-a04b-4d5a-a2a3-e515b655b5a4")
 	)
 	(junction
-		(at 176.53 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d12148b-8ecc-4e43-8402-61b2082e2157")
-	)
-	(junction
 		(at 218.44 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3339,6 +3359,12 @@
 		(uuid "7e8b6f18-077b-428a-8d6a-9cc4409423f5")
 	)
 	(junction
+		(at 176.53 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "815a23c3-bc80-4030-8b77-94e74df5fda6")
+	)
+	(junction
 		(at 163.83 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3372,7 +3398,7 @@
 		(at 176.53 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a07b4d5f-35ca-4a7e-8f3a-6ecf1e0dc69b")
+		(uuid "a073a558-08bc-4d40-8442-961b230ad538")
 	)
 	(junction
 		(at 134.62 55.88)
@@ -3391,6 +3417,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae818601-36f7-4be5-95de-62afe7501ebd")
+	)
+	(junction
+		(at 176.53 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b43fa274-0bff-4e16-af8b-ab83b780aad4")
 	)
 	(junction
 		(at 63.5 50.8)
@@ -3715,16 +3747,6 @@
 			(type default)
 		)
 		(uuid "246776c0-f150-46f4-9aeb-227ff2b7810b")
-	)
-	(wire
-		(pts
-			(xy 176.53 66.04) (xy 176.53 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "247daae8-7eaf-4265-9359-d318d9ab7c3f")
 	)
 	(wire
 		(pts
@@ -4068,6 +4090,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 66.04) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a6d175-ab43-4cce-8330-9080ce1b02c4")
+	)
+	(wire
+		(pts
 			(xy 218.44 54.61) (xy 218.44 58.42)
 		)
 		(stroke
@@ -4208,16 +4240,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 74.93) (xy 196.85 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a835a6c-b168-4c64-810f-01a24c5743b5")
-	)
-	(wire
-		(pts
 			(xy 34.29 29.21) (xy 38.1 29.21)
 		)
 		(stroke
@@ -4268,6 +4290,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 68.58) (xy 176.53 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0c7ff1-2ef6-4043-9ee2-79a33571a59e")
+	)
+	(wire
+		(pts
 			(xy 232.41 39.37) (xy 232.41 58.42)
 		)
 		(stroke
@@ -4295,6 +4327,16 @@
 			(type default)
 		)
 		(uuid "b1a17c62-f8bd-44cb-8b88-ec3af77810ed")
+	)
+	(wire
+		(pts
+			(xy 171.45 62.23) (xy 171.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3fb4baf-f71c-41b8-99c2-ab30591902ac")
 	)
 	(wire
 		(pts
@@ -4418,6 +4460,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 68.58) (xy 176.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beec9698-8180-4bb3-96f9-82eb4bf9a180")
+	)
+	(wire
+		(pts
 			(xy 198.12 49.53) (xy 200.66 49.53)
 		)
 		(stroke
@@ -4438,6 +4490,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 74.93) (xy 196.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6973e5e-4c52-401c-a53e-da1f7dca87b5")
+	)
+	(wire
+		(pts
 			(xy 238.76 41.91) (xy 238.76 74.93)
 		)
 		(stroke
@@ -4445,6 +4507,16 @@
 			(type default)
 		)
 		(uuid "cf2e5386-8058-4299-a091-0361e0f5708e")
+	)
+	(wire
+		(pts
+			(xy 176.53 46.99) (xy 176.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf94c3eb-3436-4e8e-bf27-883341ba9925")
 	)
 	(wire
 		(pts
@@ -4478,6 +4550,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 62.23) (xy 171.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d626087d-18d7-4273-89d9-5f0ed69d833a")
+	)
+	(wire
+		(pts
 			(xy 134.62 34.29) (xy 149.86 34.29)
 		)
 		(stroke
@@ -4495,16 +4577,6 @@
 			(type default)
 		)
 		(uuid "df1e5f87-2921-4f43-8944-fa26932f0028")
-	)
-	(wire
-		(pts
-			(xy 176.53 46.99) (xy 176.53 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df5e3e3b-bf82-4b34-acff-77f7f0b61590")
 	)
 	(wire
 		(pts
@@ -6833,8 +6905,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Variable_US")
+		(lib_id "Device:R_Potentiometer_US")
 		(at 176.53 62.23 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6842,7 +6915,7 @@
 		(dnp no)
 		(uuid "aa29b4df-4431-4ccd-bf97-a7f5f46e5173")
 		(property "Reference" "RV1"
-			(at 180.594 64.262 0)
+			(at 182.118 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,7 +6924,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 180.594 61.722 0)
+			(at 181.102 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6868,7 +6941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09k/rk09k.pdf"
+		(property "Datasheet" "~"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -6877,7 +6950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
+		(property "Description" "Potentiometer, US symbol"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -6891,6 +6964,9 @@
 		)
 		(pin "2"
 			(uuid "be5154b8-3a7b-40bf-8afd-1d85f4c2f9c1")
+		)
+		(pin "3"
+			(uuid "00e280e2-f403-43a1-ba5b-ce9eba10372d")
 		)
 		(instances
 			(project ""
