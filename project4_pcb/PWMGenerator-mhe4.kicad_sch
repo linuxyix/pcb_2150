@@ -7,7 +7,7 @@
 	(title_block
 		(title "CMPE2150 PWM Generator - mhe4")
 		(date "2025-12-11")
-		(rev "0")
+		(rev "2")
 		(company "NAIT CNT")
 		(comment 1 "Mengning He")
 	)
@@ -444,6 +444,186 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Barrel_Jack"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 1.905)
+					(mid -3.9343 2.54)
+					(end -3.302 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1799,194 +1979,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Simulation_SPICE:VSIN"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.0254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "V"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "VSIN"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Voltage source, sinusoidal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=+ 2=-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Params" "dc=0 ampl=1 f=1k ac=1"
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Sim.Type" "SIN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation ac vac"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VSIN_0_0"
-				(arc
-					(start -1.27 0)
-					(mid -0.635 0.6323)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 0)
-					(mid 0.635 -0.6323)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "+"
-					(at 0 1.905 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "VSIN_0_1"
-				(circle
-					(center 0 0)
-					(radius 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "VSIN_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3604,6 +3596,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 44.45) (xy 31.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c6645e-d758-4716-8eec-7128833693b6")
+	)
+	(wire
+		(pts
 			(xy 78.74 34.29) (xy 82.55 34.29)
 		)
 		(stroke
@@ -4084,7 +4086,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 59.69) (xy 31.75 77.47)
+			(xy 31.75 57.15) (xy 31.75 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4591,16 +4593,6 @@
 			(type default)
 		)
 		(uuid "f2ead07b-6187-4376-b1da-6f184e67d969")
-	)
-	(wire
-		(pts
-			(xy 31.75 44.45) (xy 31.75 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f391e1cb-48ae-4a32-ac7f-f9b4e25f56aa")
 	)
 	(wire
 		(pts
@@ -5322,7 +5314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 110.1852 45.72 0)
 			(effects
 				(font
@@ -5331,7 +5323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1059.pdf"
 			(at 109.22 41.91 0)
 			(effects
 				(font
@@ -5818,7 +5810,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "CTS 209-210"
 			(at 27.94 39.37 0)
 			(effects
 				(font
@@ -5826,7 +5818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile"
 			(at 31.75 39.37 0)
 			(effects
 				(font
@@ -5835,7 +5827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ctscorp.com/wp-content/uploads/209-210.pdf"
 			(at 31.75 39.37 0)
 			(effects
 				(font
@@ -6744,7 +6736,7 @@
 		(dnp no)
 		(uuid "aa29b4df-4431-4ccd-bf97-a7f5f46e5173")
 		(property "Reference" "RV1"
-			(at 183.134 64.008 0)
+			(at 180.594 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +6745,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 183.134 61.468 0)
+			(at 180.594 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +6753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -6770,7 +6762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk09k/rk09k.pdf"
 			(at 176.53 62.23 0)
 			(effects
 				(font
@@ -7618,8 +7610,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:VSIN")
-		(at 31.75 54.61 0)
+		(lib_id "Connector:Barrel_Jack")
+		(at 24.13 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7627,7 +7619,7 @@
 		(dnp no)
 		(uuid "d86019d8-3206-4dde-a5cb-bab92c1f6c65")
 		(property "Reference" "V1"
-			(at 23.114 54.864 0)
+			(at 19.812 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +7628,7 @@
 			)
 		)
 		(property "Value" "VSIN"
-			(at 23.114 57.404 0)
+			(at 19.812 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,8 +7636,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 31.75 54.61 0)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
+			(at 25.4 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7653,8 +7645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 31.75 54.61 0)
+		(property "Datasheet" "~"
+			(at 25.4 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7662,8 +7654,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Voltage source, sinusoidal"
-			(at 31.75 54.61 0)
+		(property "Description" "DC Barrel Jack"
+			(at 24.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +7664,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 31.75 54.61 0)
+			(at 24.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +7673,7 @@
 			)
 		)
 		(property "Sim.Params" "dc=0 ampl=16.97 f=60 ac=12"
-			(at 20.32 74.676 90)
+			(at 16.51 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +7682,7 @@
 			)
 		)
 		(property "Sim.Type" "SIN"
-			(at 31.75 54.61 0)
+			(at 24.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7691,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 31.75 54.61 0)
+			(at 24.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7821,7 +7813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 83.5152 46.99 0)
 			(effects
 				(font
@@ -7830,7 +7822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.nichicon.com/getmedia/8feec43d-7806-4ea3-a7e2-8f52c40026b3/e-upw.pdf"
 			(at 82.55 43.18 0)
 			(effects
 				(font
