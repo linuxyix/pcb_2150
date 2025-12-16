@@ -9,7 +9,6 @@
 		(date "2025-12-11")
 		(rev "5")
 		(company "NAIT CNT")
-		(comment 1 "Mengning He")
 	)
 	(lib_symbols
 		(symbol "Comparator:LM339"
